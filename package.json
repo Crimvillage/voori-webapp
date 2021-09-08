@@ -1,0 +1,22 @@
+{
+  "name": "voori-webapp",
+  "version": "0.0.1",
+  "description": "Voori frontpage",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "nodemon webapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crimvillage/voori-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crimvillage/voori-webapp/issues"
+  },
+  "homepage": "https://github.com/Crimvillage/voori-webapp#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
