@@ -10,12 +10,22 @@
     =============================================== */
 
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 50) {
-            $('.top-navbar').addClass('fixed-menu');
+        if ($(window).scrollTop() > 300) {
+            $('.top-navbar').addClass('active');
         } else {
-            $('.top-navbar').removeClass('fixed-menu');
+            $('.top-navbar').removeClass('active');
         }
     });
+
+    
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 300) {
+            $('.navbar').addClass('bg-gradient-red');
+        } else {
+            $('.navbar').removeClass('bg-gradient-red');
+        }
+    });
+    
 
     /* ==============================================
     Back top
